@@ -13,7 +13,7 @@ Please note that file structure might not be accurate in these examples as we ar
 ## Injectable vs. non-injectable Objects in Magento 2
 (see examples in folder **injectable-non-injectable**)
 
-External information: 
+**External information:** 
 - https://developer.adobe.com/commerce/php/development/components/dependency-injection/
 
 <br>
@@ -45,6 +45,23 @@ The **di.xml** tells Magento that if an *InjectableInterface* is added to the co
 
 However, another non-injectable Object is used in the MyClass this time as a newable directly inside the class function *doSomething*
 
+<br>
 
-## Why is it said that "you shouldn't try to avoid using the ObjectManager in your classes"
+***
+<br>
 
+## Grunt, Gulp & Webpack
+
+**External information:** 
+
+- https://www.cleveroad.com/blog/gulp-browserify-webpack-grunt/
+- https://artjoker.net/blog/gulp-vs-grunt-vs-webpack-tools-and-task-runners-which-technology-is-better/
+
+### In short
+
+Grunt and Gulp are task runners, while Webpack is a module bundler.
+
+Gulp and Grunt are task runners, tools used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting.
+
+Webpack is a free and open-source module bundler for JavaScript. It is made primarily for JavaScript, but it can transform front-end assets such as HTML, CSS, and images if the corresponding loaders are included. Webpack takes modules with dependencies and generates static assets representing those modules. 
+In combination with Jest, Webpack can be used for unit testing.
