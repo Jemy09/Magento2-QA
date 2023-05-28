@@ -1,0 +1,4 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Vendor\MyModule\Model\InjectableInterface" type="Vendor\MyModule\Model\InjectableClass" />
+    <preference for="Vendor\MyModule\Model\NonInjectableInterface" type="Vendor\MyModule\Model\NonInjectableClass1" />
+</config>
